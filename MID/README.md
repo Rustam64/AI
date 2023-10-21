@@ -6,6 +6,8 @@ This project aims to implement predictive maintenance for conveyor belts using m
 ## Data Generation
 We generated synthetic sequential data for temperature, vibration, and belt speed. The data was created with and without failure scenarios to simulate real-world conditions. The failure probability was set to 10%.
 
+<img width="443" alt="1" src="https://github.com/Rustam64/AI/assets/83468895/17741b26-e5a5-443e-a143-bd69d7ee60ad">
+
 ## Model Architecture
 We used a Long Short-Term Memory (LSTM) neural network for predictive maintenance. The model architecture is as follows:
 - LSTM layer with 32 units and ReLU activation function.
@@ -13,6 +15,9 @@ We used a Long Short-Term Memory (LSTM) neural network for predictive maintenanc
 
 ## Training Process
 The data was preprocessed by standardizing the values. Then, it was split into training and testing sets. We used the mean squared error as the loss function and the Adam optimizer for training.
+
+<img width="438" alt="2" src="https://github.com/Rustam64/AI/assets/83468895/581d943a-eec3-4019-b9b2-bd9b8797d15e">
+
 
 ### Training Parameters
 - Number of epochs: 40
